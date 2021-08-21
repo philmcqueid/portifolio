@@ -145,7 +145,12 @@ header {
   font-size: 1.5rem;
 }
 
-#button {
+#sobre .button {
+  background-color: white;
+}
+
+.button {
+  background-color: rgb(202, 202, 202);
   width: 200px;
   height: 50px;
   border-radius: 10px;
@@ -161,6 +166,8 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100vh;
+  padding: 25px;
 }
 
 #contato h1 {
@@ -175,8 +182,8 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  border-radius: 5px;
-  border: 1px solid gray;
+  /* border-radius: 5px;
+  border: 1px solid gray; */
   padding: 15px;
 }
 
@@ -195,4 +202,44 @@ header {
   height: 100px;
   width: 100%;
   padding: 5px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+/* Rodapé */
+#footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+  background-color: #102d40;
+  color: white;
+}
+
+.location p {
+  margin-top: 15px;
+}
+.social-media {
+  display: flex;
+  flex-direction: column;
+}
+.medias {
+  display: flex;
+  flex-direction: row;
+}
+.medias p {
+  margin-top: 15px;
+}
+.medias svg {
+  width: 50px;
+}
+
+.whatsapp,
+.instagram {
+  color: white;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
